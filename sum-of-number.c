@@ -43,6 +43,5 @@ int main(void){
     // else if (year%400==0){
     //     printf("%d is a leap year", year);
     // }
-    
     return 0;
 }
