@@ -7,7 +7,7 @@ typedef struct{
 } person;
 
 int main (void){
-    person people[3];
+    person people[4];
 
     strcpy(people[0].name, "John");
     strcpy(people[0].number, "+91-45454-12322");
@@ -17,6 +17,9 @@ int main (void){
 
     strcpy(people[2].name, "William");
     strcpy(people[2].number, "+91-45454-18762");
+
+    strcpy(people[3].name, "Robert");
+    strcpy(people[3].number, "+91-45454-18734");
 
     char name[1000];
     printf("Enter Name: ");
