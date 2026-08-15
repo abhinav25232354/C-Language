@@ -2,9 +2,9 @@
 
 def find(name):
     if name in phonebook:
-        print(f"Found {phonebook[name]}")
+        print(f"Person Found\nContact no. {phonebook[name]}")
     else:
-        print("Not Found")
+        print("Person Not Found")
 
 phonebook = {
     "john": "+1-212-32323",
