@@ -13,5 +13,16 @@ phonebook = {
 }
 
 # print(phonebook["John"])
-user_input = input("Find Someone: ")
-find(user_input)
+# user_input = input("Find Someone: ")
+# find(user_input)
+
+
+
+
+def factorial(number):
+    fac = 1
+    for i in range(number, 1):
+        fac *= i
+    print(f"Factorial: {number}")
+
+factorial(5)
